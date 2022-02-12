@@ -1,14 +1,18 @@
 /* Navbar */
+#navbar {
+  display: flex;
+}
+
 #navbar ul li {
   display: inline-block;
   list-style: outside none none;
-  margin: 0 0.5rem;
+  margin: 0 2.5rem;
   padding: 0;
 }
 
- #navbar ul li:first-child {
-  margin: 0 0.5rem 0 0;
-} 
+/* #navbar ul li:first-child {
+  margin: 0 3rem 0 0;
+}  */
 
 #navbar ul:nth-child(2) {
   display: block;

@@ -58,3 +58,9 @@ button {
 #profile-content .text-hello {
   padding-left: 8px;
 }
+
+/* Show Hamburger Menu */
+#menu {
+  display: block;
+}
+

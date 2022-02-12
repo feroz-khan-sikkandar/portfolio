@@ -1,4 +1,8 @@
 /* Navbar */
+#navbar {
+  display: block;
+}
+
 #navbar ul li {
   display: inline-block;
   list-style: outside none none;
@@ -45,4 +49,9 @@
   display: grid;
   grid-template-columns: repeat(2, auto);
   grid-gap: 1rem;
+}
+
+/* Hide Hamburger Menu */
+#menu {
+  display: none;
 }

@@ -1,0 +1,9 @@
+/* Show Hamburger Menu */
+#menu {
+  display: block;
+}
+
+/* Hide Main Navbar */
+#navbar {
+  display: none;
+}

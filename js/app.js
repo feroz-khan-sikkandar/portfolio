@@ -1,6 +1,6 @@
 // Download CV on Button Click
 document.querySelector('#download-cv').addEventListener('click', function (event) {
-  document.querySelector('#loading').style.display = 'block';
+  document.getElementById("spinner").classList.add("show");
   setTimeout(downloadCv, 2000);
 });
 
@@ -33,7 +33,7 @@ function downloadCv () {
         }
     };
     req.send(); 
-    document.querySelector('#loading').style.display = 'none';
+    document.getElementById("spinner").classList.remove("show");
 }
 
 // Smooth Scrolling
@@ -55,3 +55,11 @@ function downloadCv () {
       );
     } // End if
   });
+
+
+  // Hamburger menu toggle button
+  function menuOnClick() {
+    document.getElementById("menu-bar").classList.toggle("change");
+    document.getElementById("nav").classList.toggle("change");
+    document.getElementById("menu-bg").classList.toggle("change-bg");
+  }
