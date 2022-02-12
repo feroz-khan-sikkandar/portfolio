@@ -1,0 +1,60 @@
+/* Button */
+.btn {
+  padding: 0.5rem 1rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+}
+
+#contact-us .container {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact-us .contact-address img {
+  display: none;
+}
+
+/* Section: Resume */
+#resume .content-block {
+  display: flex;
+  flex-direction: column;
+}
+
+/* What I Do */
+#what-i-do .cards {
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  grid-gap: 1rem;
+}
+
+/* Navbar */
+#navbar {
+  display: none;
+}
+
+/* Header Section*/
+.header-image .profile-img {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  left: -72px;
+}
+
+/* Profile Content */
+#profile-content .text-developer {
+  font-size: 4rem;
+  font-weight: 900;
+  font-style: italic;
+  letter-spacing: 1px;
+  color: #1f1a3a;
+}
+
+#profile-content .developer-role {
+  font-size: 1rem;
+}
+
+#profile-content .text-hello {
+  padding-left: 8px;
+}
