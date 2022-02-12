@@ -1,5 +1,8 @@
 // Download CV on Button Click
-document.querySelector('#download-cv').addEventListener('click', downloadCv);
+document.querySelector('#download-cv').addEventListener('click', function (event) {
+  document.querySelector('#loading').style.display = 'block';
+  setTimeout(downloadCv, 2000);
+});
 
 function downloadCv () {
     let fileName = 'Feroz_Khan.pdf'
@@ -30,6 +33,7 @@ function downloadCv () {
         }
     };
     req.send(); 
+    document.querySelector('#loading').style.display = 'none';
 }
 
 // Smooth Scrolling

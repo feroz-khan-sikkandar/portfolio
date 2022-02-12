@@ -1,0 +1,49 @@
+/* Navbar */
+#navbar ul li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0 0.5rem;
+  padding: 0;
+}
+
+ #navbar ul li:first-child {
+  margin: 0 0.5rem 0 0;
+} 
+
+#navbar ul:nth-child(2) {
+  display: block;
+}
+
+/* Header Section*/
+.header-image .profile-img {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  left: -182px;
+}
+
+/* Profile Content */
+#profile-content .text-developer {
+  font-size: 6rem;
+}
+
+#what-i-do .cards .card {
+  width: 12.5rem;
+  height: 17rem;
+  background-color: #42377c;
+  color: #fff;
+  border-radius: 1rem;
+  border: #42377c 0.2rem solid;
+  transition: all 0.4s ease-in;
+  box-shadow: 0.4rem 0.4rem 0.6rem #00000040;
+  margin: 0 4rem;
+  padding: 1rem;
+}
+
+/* What I Do */
+#what-i-do .cards {
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 1rem;
+}
