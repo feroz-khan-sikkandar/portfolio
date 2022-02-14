@@ -1,3 +1,6 @@
+// Initialize AOS 
+AOS.init();
+
 // Download CV on Button Click
 document.querySelector('#download-cv').addEventListener('click', function (event) {
   document.getElementById("spinner").classList.add("show");
@@ -63,3 +66,5 @@ function downloadCv () {
     document.getElementById("nav").classList.toggle("change");
     document.getElementById("menu-bg").classList.toggle("change-bg");
   }
+
+  
